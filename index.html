@@ -1,138 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<body>
-  <section>
-    <div>
-        <h2>Translation and Interpreting</h2>
-        <span>Home</span> 
-        &gt; 
-        <span>Translation and Interpreting</span>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Menu</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="menu">
+      <main>
+        <h1>CAMPER CAFE</h1>
+        <p class="established">Est. 2020</p>
+        <hr>
+        <section>
+          <h2>Coffee</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+          <article class="item">
+            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">4.50</p>
+          </article>
+        </section>
+        <section>
+          <h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">1.50</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+          </article>
+        </section>
+      </main>
+      <hr class="bottom-line">
+      <footer>
+        <p>
+          <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+        </p>
+        <p class="address">123 Free Code Camp Drive</p>
+      </footer>
     </div>
-    <div>
-      <img src="img/single-service-page.png" alt="Single Service Photo">
-    </div>
-    <div>
-        <span>
-          <img width="20" height="20" src="img/yellow_mark.svg" alt="icon">
-        </span>
-        <span>
-          Document translation;
-        </span>
-        <span>
-          <img width="20" height="20" src="img/purpule_mark.svg" alt="icon">
-        </span>
-        <span>
-          Localization services;
-        </span>
-        <span>
-          <img width="20" height="20" src="img/yellow_mark.svg" alt="icon">
-        </span>
-        <span>
-          On-site interpretation;
-        </span>
-        <span>
-          <img width="20" height="20" src="img/green_mark.svg" alt="icon">
-        </span>
-        <span>
-          Personal interpreters and other services.
-        </span>
-    </div>
-  </section>
-  <section>
-    <div>
-      <style>
-        .container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
-            padding: 20px;
-        }
-    </style>
-     <div class="container">
-      <div class="column">
-        <p>Founded in 2012, LinguaNow is not just a language school but also a reliable partner in everything connected with communication in foreign languages. We provide certified translation and interpretation services to help our customers communicate with foreign partners and achieve the goals set.</p>
-        <p>Our linguists deliver high-quality services in six languages. We offer a full suite of global language and interpreter services, including document translation, all kinds of interpretation, transcription, proofreading, web localization, and certification.</p>  
-      </div>
-      <div class="column">
-        <p>We work with businesses across industries, from heavy engineering to legal services in multiple jurisdictions. Customer satisfaction is our main priority at LinguaNow. We are an expert language solutions provider, aiming to find the best solution for every client. We never miss deadlines and complete tasks with the highest quality.</p>
-        <p>Our clients recommend us for our approachable, affordable, and professional service. We currently work with companies across the EU as we are based in Berlin. Also, we have corporate clients from the UK and the USA.</p>
-      </div>
-    </div>
-  </section>
-  <section class="pricing">
-    <h2>Translation and Interpreting Pricing<span>.</span></h2>
-    <p>We offer a full range of language support services at affordable prices.</p>
-    <div class="tabs_container">
-      <div class="language__tabs">
-        <div class="language__tab language__tab--active" role="button">
-          <button type="switch">
-            <span>
-              <img width="20" height="20" src="img/ukraine.svg" alt="icon">
-            </span>
-            <span class="text">Ukrainian</span>
-          </button>
-        </div>
-        <div class="language__tab" role="button">
-          <button type="switch">
-            <span>
-              <img width="20" height="20" src="img/france.svg" alt="icon">
-            </span>
-            <span class="text">French</span>
-            </div>
-          </button>
-        <div class="language__tab" role="button">
-          <button type="switch">
-            <span>
-              <img width="20" height="20" src="img/spain.svg" alt="icon">
-            </span>
-            <span class="text">Spanish</span>
-          </button>
-        </div> 
-        <div class="language__tab" role="button">
-          <button type="switch">
-          <span>
-            <img width="20" height="20" src="img/china.svg" alt="icon">
-          </span>
-          <span class="text">Chinese</span>
-        </button>
-      </div> 
-      <div class="language__tab" role="button">
-        <button type="switch">
-        <span>
-          <img width="20" height="20" src="img/united-kingdom.svg" alt="icon">
-        </span>
-        <span class="text">English</span>
-      </button>
-    </div> 
-      <div class="documents_translation">
-        <div class="top-text"> <p>Documents translation from $15</p></div>
-        <div class="bottom-text"><h5>Document translation services across multiple industries.</h5></div>
-      </div>
-      <div class="apostille_legalization">
-        <div class="top-text"> <p>Apostille & legalization from $18</p></div>
-        <div class="bottom-text"><h5>Legalization of public documents for their international use.</h5></div>
-      </div>
-      <div class="localization_services">
-        <div class="top-text"> <p>Localization services from $19</p></div>
-        <div class="bottom-text"><h5>Adaptation of your products or services to the Ukrainian language.</h5></div>
-      </div>
-      <div class="website_translation">
-        <div class="top-text"> <p>Website translation from $80</p></div>
-        <div class="bottom-text"><h5>Correct translation of all pages of your website into Ukrainian.</h5></div>
-      </div>
-      <div class="remote_interpretation">
-        <div class="top-text"> <p>Remote interpretation from $20</p></div>
-        <div class="bottom-text"><h5>Assistance in video/phone conversations with Ukrainian speakers.</h5></div>
-      </div>
-      <div class="on-site_interpretation">
-        <div class="top-text"> <p>On-site interpretation from $30</p></div>
-        <div class="bottom-text"><h5>Language support for meetings, conferences, and other events.</h5></div>
-      </div>
-      </div>
-    </div>
-  </section>
-</body>
-
-
-    
+  </body>
+</html>
